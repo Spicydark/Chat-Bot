@@ -32,7 +32,7 @@ A full-stack application that leverages OpenAI's powerful AI models to provide t
 
 ### Backend
 - **Framework**: Spring Boot 3.3.2
-- **Java Version**: 17 (compiled with Java 21)
+- **Java Version**: 17 or higher (project targets Java 21)
 - **AI Integration**: Spring AI 1.0.0-M1
 - **OpenAI Integration**: Spring AI OpenAI Starter
 - **Build Tool**: Maven
@@ -48,7 +48,7 @@ A full-stack application that leverages OpenAI's powerful AI models to provide t
 ## 📋 Prerequisites
 
 Before you begin, ensure you have the following installed:
-- **Java 17** or higher (Java 21 recommended)
+- **Java 17 or higher** (Java 21 is recommended and configured as the target version)
 - **Node.js** (v14 or higher) and **npm**
 - **Maven** (for backend build)
 - **OpenAI API Key** - [Get one here](https://platform.openai.com/api-keys)
@@ -58,7 +58,7 @@ Before you begin, ensure you have the following installed:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/Spicydark/Chat-Bot.git
+git clone https://github.com/<your-username>/Chat-Bot.git
 cd Chat-Bot
 ```
 
